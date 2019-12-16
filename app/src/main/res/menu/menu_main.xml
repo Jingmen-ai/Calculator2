@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.calculator2.MainActivity">
+    <item
+        android:id="@+id/action_JS"
+        android:orderInCategory="100"
+        android:title="标准计算器"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_HS"
+        android:orderInCategory="100"
+        android:title="单位换算"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_JZ"
+        android:orderInCategory="100"
+        android:title="进制转换"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_HLP"
+        android:orderInCategory="100"
+        android:title="帮助"
+        app:showAsAction="never" />
+</menu>
